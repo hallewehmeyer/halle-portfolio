@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { ListGroup, ListGroupItem } from 'reactstrap';
 
 const MenuNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +27,9 @@ const MenuNav = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/about">About</NavLink>
-            </NavItem>
+            {/* <NavItem>
+              <NavLink href="/about">About Me</NavLink>
+            </NavItem> */}
             <NavItem>
               <NavLink href="/portfolio">Portfolio</NavLink>
             </NavItem>

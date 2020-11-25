@@ -1,11 +1,11 @@
 import React from 'react'
 import Jumbotron from '../comp/Jumbotron'
-import AboutImage from './portfolio.png'
+import AboutImage from '../images/portfolio.png'
 
 export default function About() {
     return (
         <div>
-            <Jumbotron title="About Me" copy="This is my about page."/>
+            <Jumbotron title="I'm Halle," copy="a passion and creatitivity-driven web ingineer ready to bring ideas"/>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
