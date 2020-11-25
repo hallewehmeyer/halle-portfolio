@@ -3,6 +3,9 @@ import Jumbotron from '../comp/Jumbotron'
 import AboutP from '../images/portfolio.png'
 
 export default function About() {
+    var style1 = {
+        backgroundColor: "pink"
+    }
     return (
         <div>
             <Jumbotron title="I'm Halle," copy="a passion and creatitivity-driven web ingineer ready to bring ideas to life" />
